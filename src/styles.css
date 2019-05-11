@@ -1,0 +1,30 @@
+App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .users-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+  }
+  
+  .user-card {
+    width: 35%;
+    background: #fff;
+    color: #666;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .user-card > img {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-card:not(:last-child) {
+    margin-right: 5px;
+  }
+  
